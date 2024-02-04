@@ -1,0 +1,20 @@
+{
+    "name": "ricardo/book",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "twig/twig": "^3.0",
+	"doctrine/orm": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Book\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ricardo Ponce",
+            "email": "ricardo.ponce@nubai.com.cv"
+        }
+    ]
+}
